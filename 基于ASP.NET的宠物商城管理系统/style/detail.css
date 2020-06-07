@@ -1,0 +1,168 @@
+﻿
+.detail_params {
+    display:inline-block;
+    width:630px;
+    height:350px;
+    margin-left:750px;
+    position:relative;
+    top:-300px;
+ 
+}
+    .detail_params .name {
+        color:#333333;
+        font-size:20px;
+    }
+    .detail_params .price {
+        background-color:#fef8f6;
+        padding:8px 0;
+    }
+    .detail_params .price .money {
+        font-size: 30px;
+        color: #ee5533;
+    }
+    .detail_params .symbol {
+        width:20px;
+        height:28px;
+        border:1px solid #ccc;
+        background-color:#fff;
+        outline:none;
+
+    }
+    .detail_params .count {
+        text-align: center;
+        width: 60px;
+        height: 28px;
+        background-color: #fff;
+        border: 0;
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        padding: 0 5px;
+        outline: none;
+    }
+    .detail_params .buyNow {
+        background-color:#ee5533;
+        color:#fff;
+        width:130px;
+        height:40px;
+        margin-left:10px;
+        border:0;
+        position:relative;
+        top:-13px;
+        outline:none;
+
+    }
+    .detail_params .buyNow:hover {
+        background-color:#c20;
+    }
+        .detail_params .addToCart {
+            background: url("../../image/btn_cart.png") no-repeat;
+            width: 150px;
+            height: 40px;
+            border: 0;
+            margin: 25px 0 0 33px;
+            outline:none
+        }
+
+        .detail_params .addToCart:hover {
+            width: 150px;
+            border: 0;
+            height: 40px;
+            background: url("../../image/btn_carted.png") no-repeat;
+        }
+
+    .detail_params p>span {
+        width:150px;
+        height:35px;
+        color:#666;
+        font-size:12px;
+        line-height:35px;
+    }
+.detail_desc {
+    margin-left:200px;
+    position:relative;
+    top:-270px;
+
+}
+    .detail_desc .tit {
+        display:block;
+        height:42px;
+        line-height:42px;
+        background-color:#f3f3f3;
+        color:#333;
+        font-size:14px;
+        padding-left:10px;
+    }
+    .detail_desc span,.detail_desc td {
+        color: #000;
+        font-size: 12px;
+       
+    }
+.detail_comment table tr {
+    width:250px;
+    height:80px;
+    border-bottom:1px dotted #ccc;
+}
+.detail_comment table .user {
+    padding: 15px;
+}
+.detail_comment table .user img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.detail_comment table .user span {
+    color: #333;
+}
+.detail_comment table .date {
+    color: #999;
+    text-align: right;
+    padding: 15px;
+}
+.detail_comment .content {
+    text-align:left;
+}
+/*放大镜样式*/
+.detail_img {
+    margin: 20px 15px 20px 451px;
+    width: 273px;
+    height: 267px;
+    /*text-align:center;*/
+    padding: 20px;
+    border: 1px solid #ccc;
+    position: relative;
+}
+
+    .detail_img img {
+        height: 245px;
+        width: 251px;
+      
+    }
+.small {
+    width:251px;
+    height:245px;
+    position: relative;
+    top: -10px;
+    left: -10px;
+}
+
+.big {
+    width: 380px;
+    height: 380px;
+    position: absolute;
+    top: -10px;
+    left: 280px;
+    overflow: hidden;
+    display: none;
+    z-index:9;
+}
+
+.mask {
+    width: 80px;
+    height:80px;
+    background: rgba(255, 255, 0, 0.4);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    cursor: move;
+    display: none;
+}

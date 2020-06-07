@@ -1,0 +1,134 @@
+<html>
+<head>
+    <title>menu</title>
+    <link rel="stylesheet" href="skin/css/base.css" type="text/css" />
+    <link rel="stylesheet" href="skin/css/menu.css" type="text/css" />
+    <!--<link href="style/bootstrap.min.css" rel="stylesheet" />-->
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <script language='javascript'>var curopenItem = '1';</script>
+    <script language="javascript" type="text/javascript" src="skin/js/frame/menu.js"></script>
+
+    <base target="main" />
+    <!-- <style>
+         body {
+             width:300px;
+         }
+         .bitem {
+             width: 250px;
+             border: 1px solid red;
+             text-align: center;
+         }
+
+             .bitem b {
+                 font-size: 16px;
+                 color: #fff;
+                 background-color: #ee5533;
+                 height: 40px;
+                 display: inline-block;
+                 line-height: 40px;
+                 width: 100%;
+             }
+
+         .sitem {
+             height: 48px;
+             background-color: #fff;
+             color: #333;
+         }
+     </style>
+        -->
+</head>
+<body target="main">
+<table width='99%' height="100%" border='0' cellspacing='0' cellpadding='0'>
+  <tr>
+      <td style="padding-left:3px;padding-top:8px; height: 700px;" valign="top">
+          <!-- Item 1 Strat -->
+          <dl class='bitem'>
+              <dt onClick='showHide("items1_1")'><b>商品信息管理</b></dt>
+              <dd style='display:block' class='sitem' id='items1_1'>
+                  <ul class='sitemu'>
+                      <li>
+                          <div class='items'>
+                              <div class='fllct'><a href='AddShangPin.aspx' target='main'>添加商品</a></div>
+
+                          </div>
+                      </li>
+                      <li><a href='ShangPinManger.aspx' target='main'>信息修改</a></li>
+                      <li><a href='ShangPinTypeManger.aspx' target='main'>商品分类</a></li>
+
+
+                      <!--  <li><a href='KuCunList.aspx' target='main'>商品库存</a></li>-->
+                      <li><a href='CommentManger.aspx' target='main'>商品评论</a></li>
+
+                  </ul>
+              </dd>
+          </dl>
+
+          <dl class='bitem'>
+              <dt onClick='showHide("items3_1")'><b>订单信息管理</b></dt>
+              <dd style='display:block' class='sitem' id='items3_1'>
+                  <ul class='sitemu'>
+                      <li><a href='Order.aspx' target='main'>订单管理</a></li>
+                      <li><a href='OrderStatistics.aspx' target='main'>订单统计</a></li>
+
+                  </ul>
+              </dd>
+          </dl>
+
+          <dl class='bitem'>
+              <dt onClick='showHide("items2_1")'><b>会员管理</b></dt>
+              <dd style='display:block' class='sitem' id='items2_1'>
+                  <ul class='sitemu'>
+                      <li><a href='UserList.aspx' target='main'>会员信息查看</a></li>
+                      <!-- <li><a href='UserZKList.aspx' target='main'>会员折扣设置</a></li>  -->
+
+
+
+
+
+                  </ul>
+              </dd>
+          </dl>
+
+
+          <dl class='bitem'>
+              <dt onClick='showHide("items4_1")'><b>网站公告管理</b></dt>
+              <dd style='display:block' class='sitem' id='items4_1'>
+                  <ul class='sitemu'>
+                      <li><a href='AddNews.aspx' target='main'>公告发布</a></li>
+                      <li><a href='NewsList.aspx' target='main'>公告修改</a></li>
+                      <li><a href='NewsTypeList.aspx' target='main'>公告分类</a></li>
+                  </ul>
+              </dd>
+          </dl>
+
+
+          <dl class='bitem'>
+              <dt onClick='showHide("items5_1")'><b>留言信息管理</b></dt>
+              <dd style='display:block' class='sitem' id='items5_1'>
+                  <ul class='sitemu'>
+                      <li><a href="lyManger.aspx" target="main">留言回复</a></li>
+                  </ul>
+              </dd>
+          </dl>
+         
+
+
+          <dl class='bitem'>
+              <dt onClick='showHide("items6_1")'><b>系统管理</b></dt>
+              <dd style='display:block' class='sitem' id='items6_1'>
+                  <ul class='sitemu'>
+                      <li><a href="admin.aspx" target="main">管理员管理</a></li>
+
+
+
+                  </ul>
+              </dd>
+          </dl>
+
+      </td>
+  </tr>
+</table>
+    <script language="javascript" type="text/javascript" src="../../js/jquery-1.3.2.min.js"></script>
+<script language="javascript" type="text/javascript" src="js/bootstrap.js">    </script>
+</body>
+</html>

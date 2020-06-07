@@ -1,0 +1,495 @@
+.cases {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; WIDTH: 640px; PADDING-RIGHT: 0px; FLOAT: left; CLEAR: both; PADDING-TOP: 0px
+}
+.cases H2 {
+	BORDER-BOTTOM: #f70 2px solid
+}
+.casePic5 {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 5px; PADDING-LEFT: 0px; WIDTH: 640px; PADDING-RIGHT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; FLOAT: left; COLOR: #666; CLEAR: both; PADDING-TOP: 10px
+}
+.casePic5 LI {
+	PADDING-BOTTOM: 5px; WIDTH: 128px; FLOAT: left
+}
+.casePic5 LI IMG {
+	MARGIN-BOTTOM: 2px
+}
+.caseList3 {
+	PADDING-BOTTOM: 10px; LINE-HEIGHT: 26px; PADDING-LEFT: 0px; WIDTH: 640px; PADDING-RIGHT: 0px; FLOAT: left; COLOR: #666; CLEAR: both; PADDING-TOP: 10px
+}
+.caseList3 UL {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 640px; PADDING-RIGHT: 0px; FLOAT: left; COLOR: #666; CLEAR: both; PADDING-TOP: 0px
+}
+.caseList3 LI {
+	LINE-HEIGHT: 26px; TEXT-INDENT: 10px; WIDTH: 213px; BACKGROUND: url(bg.gif) no-repeat -970px -500px; FLOAT: left; FONT-SIZE: 14px
+}
+.sListText {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 0px; WIDTH: 300px; PADDING-RIGHT: 0px; FLOAT: left; CLEAR: both; PADDING-TOP: 5px
+}
+.sListText LI {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 3px; WIDTH: 300px; FLOAT: left; CLEAR: both
+}
+.caseRecipes LI {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 10px; PADDING-LEFT: 20px; WIDTH: 100px; PADDING-RIGHT: 0px; FLOAT: left; PADDING-TOP: 0px; voice-family: inherit
+}
+.caseRecipes LI IMG {
+	MARGIN-BOTTOM: 2px
+}
+#caseShow H4 {
+	WIDTH: 637px; BACKGROUND: #f8f8f8; HEIGHT: 32px; FONT-SIZE: 14px; BORDER-TOP: #e5e5e5 1px solid; BORDER-RIGHT: #e5e5e5 1px solid
+}
+#caseShow H4 B A {
+	BORDER-BOTTOM: #e5e5e5 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #e5e5e5 1px solid; LINE-HEIGHT: 32px; WIDTH: 158px; DISPLAY: inline-block; HEIGHT: 32px; FONT-WEIGHT: normal
+}
+#caseShow H4 B A:link {
+	COLOR: #666
+}
+#caseShow H4 B A:visited {
+	COLOR: #666
+}
+#caseShow H4 B A:hover {
+	BORDER-BOTTOM: medium none; BACKGROUND: #fff; COLOR: #f30; FONT-WEIGHT: bold
+}
+#caseShow H4 B A:active {
+	BORDER-BOTTOM: medium none; BACKGROUND: #fff; COLOR: #f30; FONT-WEIGHT: bold
+}
+#caseShow H4 B.now A {
+	BORDER-BOTTOM: medium none; BACKGROUND: #fff; COLOR: #f30; FONT-WEIGHT: bold
+}
+#caseShow .cslist UL {
+	BORDER-BOTTOM: #e5e5e5 1px solid; BORDER-LEFT: #e5e5e5 1px solid; PADDING-BOTTOM: 8px; PADDING-LEFT: 3px; WIDTH: 630px; PADDING-RIGHT: 3px; FLOAT: left; CLEAR: both; BORDER-RIGHT: #e5e5e5 1px solid; PADDING-TOP: 8px
+}
+#caseShow .cslist UL.zhlist {
+	BORDER-BOTTOM: #e5e5e5 1px solid; BORDER-LEFT: #e5e5e5 1px solid; PADDING-BOTTOM: 8px; PADDING-LEFT: 3px; WIDTH: 630px; PADDING-RIGHT: 3px; FLOAT: left; CLEAR: both; BORDER-RIGHT: #e5e5e5 1px solid; PADDING-TOP: 8px
+}
+#caseShow .cslist LI {
+	LINE-HEIGHT: 28px; TEXT-INDENT: 9px; WIDTH: 70px; FLOAT: left; COLOR: #2c629e; FONT-SIZE: 12px
+}
+#caseShow .cslist UL.zhlist LI {
+	WIDTH: 102px
+}
+#relist LI A {
+	WIDTH: 50px; DISPLAY: inline-block; FLOAT: left
+}
+#relist LI A.w100 {
+	WIDTH: 100px; DISPLAY: inline-block; FLOAT: left
+}
+#relist LI STRONG {
+	COLOR: #f30; FONT-WEIGHT: normal
+}
+#health .case2 {
+	PADDING-BOTTOM: 8px; PADDING-LEFT: 0px; WIDTH: 320px; PADDING-RIGHT: 0px; FLOAT: left; PADDING-TOP: 8px
+}
+#health .case2 DIV {
+	TEXT-ALIGN: left; WIDTH: 130px; FLOAT: left
+}
+#health .case2 H4 {
+	LINE-HEIGHT: 20px; WIDTH: 190px; FLOAT: left; FONT-SIZE: 14px; FONT-WEIGHT: normal
+}
+#health .case2 H4 A:link {
+	COLOR: #f50
+}
+#health .case2 H4 A:visited {
+	COLOR: #f50
+}
+#health .case2 H4 A:hover {
+	COLOR: #f00
+}
+#health .case2 H4 A:active {
+	COLOR: #f00
+}
+#health .case2 P {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 0px; WIDTH: 190px; PADDING-RIGHT: 0px; FLOAT: left; COLOR: #666; FONT-SIZE: 12px; PADDING-TOP: 5px
+}
+#health .case2 UL {
+	WIDTH: 190px; FLOAT: left
+}
+#health .case2 LI {
+	LINE-HEIGHT: 28px; FONT-SIZE: 14px
+}
+.t4 {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 640px; PADDING-RIGHT: 0px; FLOAT: left; CLEAR: both; PADDING-TOP: 10px
+}
+.t4 LI {
+	LINE-HEIGHT: 26px; TEXT-INDENT: 12px; WIDTH: 160px; BACKGROUND: url(bg.gif) no-repeat -970px -500px; FLOAT: left; FONT-SIZE: 14px
+}
+.case {
+	MARGIN-TOP: 10px; FONT-SIZE: 14px
+}
+.case2 {
+	MARGIN-TOP: 10px; FONT-SIZE: 14px
+}
+.casePic5 {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; WIDTH: 640px; PADDING-RIGHT: 0px; BACKGROUND: url(d.gif) no-repeat left bottom; FLOAT: left; CLEAR: both; PADDING-TOP: 10px; text-align:center;
+}
+.t3 {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 0px; WIDTH: 640px; PADDING-RIGHT: 0px; FLOAT: left; CLEAR: both; PADDING-TOP: 5px
+}
+.t3 LI {
+	LINE-HEIGHT: 26px; TEXT-INDENT: 12px; WIDTH: 213px; BACKGROUND: url(bg.gif) no-repeat -970px -500px; FLOAT: left; FONT-SIZE: 14px
+}
+.t2 {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 640px; PADDING-RIGHT: 0px; FLOAT: left; CLEAR: both; PADDING-TOP: 10px
+}
+.t2 LI {
+	LINE-HEIGHT: 26px; TEXT-INDENT: 17px; MARGIN: 0px 5px; WIDTH: 300px; BACKGROUND: url(bg.gif) no-repeat -965px -500px; FLOAT: left; FONT-SIZE: 14px
+}
+.t2 LI SPAN {
+	FLOAT: right; COLOR: #aaa; FONT-SIZE: 12px
+}
+.t2_n {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 640px; PADDING-RIGHT: 0px; FLOAT: left; CLEAR: both; PADDING-TOP: 10px
+}
+.t2_n LI {
+	LINE-HEIGHT: 28px; TEXT-INDENT: 17px; MARGIN: 0px 5px; WIDTH: 640px; BACKGROUND: url(bg.gif) no-repeat -965px -500px; FLOAT: left; FONT-SIZE: 14px
+}
+.t2_n LI A:link {
+	PADDING-RIGHT: 3px; COLOR: #2c629e
+}
+.t2_n LI A:visited {
+	PADDING-RIGHT: 3px; COLOR: #2c629e
+}
+.t2_n LI A:active {
+	PADDING-RIGHT: 3px; COLOR: #2c629e
+}
+.t2_n LI A:hover {
+	COLOR: #f30
+}
+.t2_n LI SPAN.f11 {
+	FONT-SIZE: 12px
+}
+#bbox_1 {
+	MIN-HEIGHT: 178px; HEIGHT: 178px; OVERFLOW: hidden
+}
+#bbox_1 H4 {
+	WIDTH: 299px; BACKGROUND: #f8f8f8; HEIGHT: 32px; FONT-SIZE: 14px; BORDER-TOP: #e5e5e5 1px solid; BORDER-RIGHT: #e5e5e5 1px solid; voice-family: inherit
+}
+#bbox_1 H4 B A {
+	BORDER-BOTTOM: #e5e5e5 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #e5e5e5 1px solid; LINE-HEIGHT: 32px; WIDTH: 98px; DISPLAY: inline-block; HEIGHT: 32px; FONT-WEIGHT: normal; voice-family: inherit
+}
+#bbox_1 H4 B A:link {
+	COLOR: #666
+}
+#bbox_1 H4 B A:visited {
+	COLOR: #666
+}
+#bbox_1 H4 B A:hover {
+	BORDER-BOTTOM: medium none; BACKGROUND: #fff; COLOR: #f30; FONT-WEIGHT: bold
+}
+#bbox_1 H4 B A:active {
+	BORDER-BOTTOM: medium none; BACKGROUND: #fff; COLOR: #f30; FONT-WEIGHT: bold
+}
+#bbox_1 H4 B.now A {
+	BORDER-BOTTOM: medium none; BACKGROUND: #fff; COLOR: #f30; FONT-WEIGHT: bold
+}
+.bcase {
+	BORDER-BOTTOM: #e5e5e5 1px solid; BORDER-LEFT: #e5e5e5 1px solid; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 298px; PADDING-RIGHT: 0px; FLOAT: left; BORDER-RIGHT: #e5e5e5 1px solid; PADDING-TOP: 0px; voice-family: inherit
+}
+.bcase .area {
+	BORDER-BOTTOM: #dcdcdc 1px dashed; PADDING-BOTTOM: 0px; MARGIN: 8px auto 0px; PADDING-LEFT: 0px; WIDTH: 280px; PADDING-RIGHT: 0px; PADDING-TOP: 0px; voice-family: inherit
+}
+.bcase .area .bcasePic {
+	TEXT-ALIGN: left; WIDTH: 78px; FLOAT: left; PADDING-TOP: 2px
+}
+.bcase .area .bcasePic IMG {
+	WIDTH: 62px; HEIGHT: 62px
+}
+.bcase .area H5 {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 20px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 200px; PADDING-RIGHT: 0px; FLOAT: left; COLOR: #f30; FONT-SIZE: 14px; FONT-WEIGHT: normal; PADDING-TOP: 0px
+}
+.bcase .area H5.c1 {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 20px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 200px; PADDING-RIGHT: 0px; FLOAT: left; COLOR: #f30; FONT-SIZE: 14px; FONT-WEIGHT: normal; PADDING-TOP: 0px
+}
+.bcase .area H5 A:link {
+	COLOR: #2c629e
+}
+.bcase .area H5 A:visited {
+	COLOR: #2c629e
+}
+.bcase .area H5 A:active {
+	COLOR: #2c629e
+}
+.bcase .area H5 A:hover {
+	COLOR: #c00
+}
+.bcase .area H5 SPAN {
+	COLOR: #666
+}
+.bcase .area P {
+	MARGIN: 0px; WIDTH: 200px; FLOAT: left; COLOR: #2c629e; FONT-SIZE: 12px
+}
+.bcase .area P.c1 {
+	MARGIN: 0px; WIDTH: 200px; FLOAT: left; COLOR: #2c629e; FONT-SIZE: 12px
+}
+.bcase .area P A:link {
+	COLOR: #2c629e
+}
+.bcase .area P A:visited {
+	COLOR: #2c629e
+}
+.bcase .area P A:hover {
+	COLOR: #f30
+}
+.bcase .area P A:active {
+	COLOR: #f30
+}
+.bcase .area P IMG {
+	MARGIN-TOP: 3px; WIDTH: 16px; FLOAT: left; HEIGHT: 16px; MARGIN-RIGHT: 5px
+}
+.bcase .area P SPAN {
+	COLOR: #666
+}
+.bcase .area H5.c1 {
+	WIDTH: 276px
+}
+.bcase .area P.c1 {
+	WIDTH: 276px
+}
+.bcase .area P.c1 SPAN {
+	COLOR: #666
+}
+.bcase .area P.c1 SPAN A:link {
+	COLOR: #2c629e
+}
+.bcase .area P.c1 SPAN A:visited {
+	COLOR: #2c629e
+}
+.bcase .area_cc {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 22px; MARGIN: 3px auto 0px; PADDING-LEFT: 0px; WIDTH: 280px; PADDING-RIGHT: 0px; PADDING-TOP: 3px; voice-family: inherit
+}
+.bcase .area_cc STRONG {
+	COLOR: #999; FONT-WEIGHT: 100
+}
+.bcase .area_cc SPAN {
+	FLOAT: right; COLOR: #2c629e
+}
+.bcase .area_cc SPAN A:link {
+	COLOR: #2c629e
+}
+.bcase .area_cc SPAN A:visited {
+	COLOR: #2c629e
+}
+.bcase .area_cc SPAN A:active {
+	COLOR: #2c629e
+}
+.bcase .area_cc SPAN A:hover {
+	COLOR: #f30
+}
+.bcase .area_cc LI {
+	WIDTH: 139px; FLOAT: left; COLOR: #2c629e
+}
+.bcase .area_cc LI IMG {
+	WIDTH: 48px; FLOAT: left; HEIGHT: 48px; MARGIN-RIGHT: 10px
+}
+.bcase .area_cc LI P {
+	LINE-HEIGHT: 18px; WIDTH: 81px; FLOAT: left; COLOR: #666
+}
+.bcase .area_cc LI A:link {
+	COLOR: #2c629e
+}
+.bcase .area_cc LI P A:visited {
+	COLOR: #2c629e
+}
+.bcase .area_cc LI A:active {
+	COLOR: #2c629e
+}
+.bcase .area_cc LI A:hover {
+	COLOR: #f30
+}
+.sBox_1 {
+	PADDING-BOTTOM: 5px; LINE-HEIGHT: 24px; PADDING-LEFT: 0px; WIDTH: 300px; PADDING-RIGHT: 0px; MARGIN-BOTTOM: 10px; FLOAT: left; COLOR: #666; CLEAR: both; PADDING-TOP: 0px
+}
+.sBox_1 H3 {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 299px; PADDING-RIGHT: 0px; BACKGROUND: #f8f8f8; HEIGHT: 31px; FONT-SIZE: 14px; BORDER-TOP: #e5e5e5 1px solid; BORDER-RIGHT: #e5e5e5 1px solid; PADDING-TOP: 0px
+}
+.sBox_1 H3 B A {
+	BORDER-BOTTOM: #e5e5e5 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #e5e5e5 1px solid; LINE-HEIGHT: 32px; WIDTH: 148px; DISPLAY: inline-block; HEIGHT: 32px; FONT-WEIGHT: normal
+}
+.sBox_1 H3 B A:link {
+	COLOR: #666
+}
+.sBox_1 H3 B A:visited {
+	COLOR: #666
+}
+.sBox_1 H3 B A:hover {
+	BORDER-BOTTOM: medium none; LINE-HEIGHT: 33px; BACKGROUND: #fff; COLOR: #f30; FONT-WEIGHT: bold
+}
+.sBox_1 H3 B A:active {
+	BORDER-BOTTOM: medium none; LINE-HEIGHT: 33px; BACKGROUND: #fff; COLOR: #f30; FONT-WEIGHT: bold
+}
+.sBox_1 H3 B.now A {
+	BORDER-BOTTOM: medium none; LINE-HEIGHT: 33px; BACKGROUND: #fff; COLOR: #f30; FONT-WEIGHT: bold
+}
+.sBox H3 SPAN {
+	FLOAT: right; COLOR: #666; FONT-SIZE: 12px; FONT-WEIGHT: normal; MARGIN-RIGHT: 5px
+}
+.sBox H3 SPAN A:link {
+	COLOR: #2c629e
+}
+.sBox H3 SPAN A:visited {
+	COLOR: #2c629e
+}
+.sBox H3 SPAN A:hover {
+	COLOR: #f60
+}
+.sBox H3 SPAN A:active {
+	COLOR: #f60
+}
+.side_case {
+	PADDING-BOTTOM: 8px; PADDING-LEFT: 0px; WIDTH: 300px; PADDING-RIGHT: 0px; FLOAT: left; PADDING-TOP: 8px
+}
+.side_case DIV {
+	TEXT-ALIGN: left; WIDTH: 95px; FLOAT: left
+}
+.side_case H4 {
+	LINE-HEIGHT: 180%; WIDTH: 205px; FLOAT: left; COLOR: #c00; FONT-SIZE: 14px; FONT-WEIGHT: normal
+}
+.side_case H4 A:link {
+	COLOR: #f30
+}
+.side_case H4 A:visited {
+	COLOR: #f30
+}
+.side_case H4 A:hover {
+	COLOR: #c00
+}
+.side_case H4 A:active {
+	COLOR: #c00
+}
+.side_case P {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 180%; PADDING-LEFT: 0px; WIDTH: 205px; PADDING-RIGHT: 0px; FLOAT: left; COLOR: #666; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+.side_case UL {
+	WIDTH: 205px; FLOAT: left
+}
+.side_case LI {
+	LINE-HEIGHT: 180%; COLOR: #2c629e; FONT-SIZE: 12px
+}
+.side_case LI A:link {
+	COLOR: #2c629e
+}
+.side_case LI A:visited {
+	COLOR: #2c629e
+}
+.side_case LI A:hover {
+	COLOR: #2c629e
+}
+.side_case LI A:active {
+	COLOR: #2c629e
+}
+.lie {
+	BORDER-BOTTOM: #e5e5e5 1px solid; BORDER-LEFT: #e5e5e5 1px solid; PADDING-BOTTOM: 3px; PADDING-LEFT: 9px; WIDTH: 280px; PADDING-RIGHT: 9px; BORDER-RIGHT: #e5e5e5 1px solid; PADDING-TOP: 10px; voice-family: inherit
+}
+.lie LI {
+	TEXT-INDENT: 15px; WIDTH: 280px; CLEAR: both
+}
+.sfaces LI {
+	TEXT-ALIGN: center; LINE-HEIGHT: 180%; TEXT-INDENT: 0px; WIDTH: 60px; BACKGROUND: none transparent scroll repeat 0% 0%; FLOAT: left; HEIGHT: 72px; CLEAR: none; OVERFLOW: hidden
+}
+.s2faces LI {
+	TEXT-ALIGN: center; LINE-HEIGHT: 180%; TEXT-INDENT: 0px; WIDTH: 60px; BACKGROUND: none transparent scroll repeat 0% 0%; FLOAT: left; HEIGHT: 102px; CLEAR: none; OVERFLOW: hidden
+}
+.s2faces LI DIV {
+	HEIGHT: 70px; OVERFLOW: hidden
+}
+.s2faces LI .online_portrait A {
+	COLOR: #f60
+}
+.sfaces LI I {
+	FONT-STYLE: normal; PADDING-RIGHT: 2px; COLOR: #f50; FONT-SIZE: 11px
+}
+.s2faces LI I {
+	FONT-STYLE: normal; PADDING-RIGHT: 2px; COLOR: #f50; FONT-SIZE: 11px
+}
+.s3faces LI {
+	TEXT-ALIGN: center; LINE-HEIGHT: 100%; TEXT-INDENT: 0px; WIDTH: 42px; BACKGROUND: none transparent scroll repeat 0% 0%; FLOAT: left; HEIGHT: 38px; CLEAR: none; OVERFLOW: hidden
+}
+.sList2 LI {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 5px; TEXT-INDENT: 0px; WIDTH: 100px; BACKGROUND: none transparent scroll repeat 0% 0%; FLOAT: left; CLEAR: none
+}
+.sList2 LI.w300 {
+	WIDTH: 300px
+}
+.pai UL {
+	WIDTH: 980px
+}
+.pai LI {
+	TEXT-ALIGN: center; WIDTH: 109px; FLOAT: left; PADDING-TOP: 10px
+}
+.pai LI IMG {
+	WIDTH: 80px; HEIGHT: 80px
+}
+.pai LI SPAN {
+	LINE-HEIGHT: 28px; DISPLAY: block
+}
+.pai LI.w108 {
+	WIDTH: 108px
+}
+.mtable {
+	WIDTH: 640px; FLOAT: left; CLEAR: both
+}
+.mtable TD {
+	PADDING-BOTTOM: 3px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-SIZE: 14px; PADDING-TOP: 3px
+}
+.tText2 {
+	BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-TOP: #e6e6e6 1px dashed
+}
+.tText2 UL {
+	WIDTH: 340px; FLOAT: left; CLEAR: both
+}
+.tText2 LI {
+	LINE-HEIGHT: 28px; TEXT-INDENT: 0px; WIDTH: 340px; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #ccc
+}
+.tText2 LI SPAN {
+	COLOR: #2c629e
+}
+.tText2 LI A {
+	MARGIN: 0px 5px
+}
+.tText2 LI SPAN A:link {
+	COLOR: #2c629e
+}
+.tText2 LI SPAN A:visited {
+	COLOR: #2c629e
+}
+.tText2 LI SPAN A:hover {
+	COLOR: #f30
+}
+.tText2 LI SPAN A:active {
+	COLOR: #f30
+}
+.tcTop H4 {
+	LINE-HEIGHT: 32px
+}
+.gray A:link {
+	COLOR: #666
+}
+.gray A:visited {
+	COLOR: #666
+}
+.gray A:hover {
+	COLOR: #f50
+}
+.gray A:active {
+	COLOR: #f50
+}
+.blue A:link {
+	COLOR: #2c629e
+}
+.blue A:visited {
+	COLOR: #2c629e
+}
+.blue A:hover {
+	COLOR: #f30
+}
+.blue A:active {
+	COLOR: #f30
+}
+#links {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 5px; MARGIN-TOP: 1px; PADDING-LEFT: 14px; WIDTH: 955px; PADDING-RIGHT: 11px; BACKGROUND: #fff; FLOAT: left; COLOR: #333; CLEAR: both; PADDING-TOP: 5px; voice-family: inherit
+}
+#links LI {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 180%; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; WHITE-SPACE: nowrap; FLOAT: left; PADDING-TOP: 0px
+}
+#links A {
+	COLOR: #333
+}

@@ -1,0 +1,164 @@
+﻿.layout{
+    width:990px;
+    margin: 0 auto;
+}
+/*top登录样式*/
+.topnav {
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+}
+
+.topnav_box {
+    border-bottom: 1px solid #eee;
+    background-color: #fff;
+}
+
+.topnav div {
+    float: right;
+    padding: 0 30px;
+}
+
+    .topnav div.nomargin {
+        padding: 0 10px;
+    }
+
+    .topnav div a {
+        color: #333;
+        display: inline-block;
+        height: 36px;
+    }
+
+
+/*搜索样式*/
+.search {
+    height: 130px;
+    padding: 15px 0;
+    box-sizing: border-box;
+}
+
+    .search .logo {
+        width: 240px;
+        height: 100px;
+        margin-right: 20px;
+      
+    }
+    .search .user_reg{
+        font-size: 24px;
+        color:#666;
+        margin: 25px 0 0 10px;
+        vertical-align: bottom;
+        display: inline-block;
+    }
+    .input_bg{
+        background-color: #fff;
+    }
+    .input_bg table{
+       margin:40px 0 0 50px;
+    }
+
+    .wordtip{
+        height: 38px;
+        width: 100px;
+        text-align: right;
+        display: inline-block;
+    }
+    .wrap_txt{
+        width: 252px;
+        height: 40px;
+        padding: 0 10px;
+        border:1px solid #ccc;
+        box-sizing: border-box;
+        display: inline-block;
+    }
+    .wrap_txt .textbox{
+        width: 230px;
+        height: 38px;
+        padding: 5px 0;
+        line-height: 38px;
+        /* background-color: #fff; */
+        box-sizing: border-box;
+        outline: none;
+        border: none;
+
+       
+    }
+    .input_bg ul{
+        margin:70px 0 0 120px;
+    }
+    .input_bg ul li{
+        margin-top: 2px;
+    }
+    .textarea{
+        width: 252px;
+        height: 150px;
+        resize: none;
+    }
+    .registerBtn{
+        width: 250px;
+        height: 46px;
+        line-height: 46px;
+        border: 1px solid #ff6655;
+        background-color: #ff6655;
+        color: #fff;
+        font-size: 18px;
+        font-family:'微软雅黑',Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        outline: none;
+        margin: 15px 0 100px 150px;
+    }
+    .validator{
+        width: 150px;
+        height: 40px;
+        margin: 10px 0 0 10px;
+        padding: 4px 10px;
+        background-color: #ffebec;
+        color: #ff6655;
+        border:1px solid #ff6655;
+        display: inline-block;
+    }
+    .validator input{
+        border: none;
+        outline: none;
+        background-color: #ffebec;
+        color: #ff6655;
+    }
+    .input_bg div img{
+        width: 280px;
+        height: 518px;
+    }
+    
+
+
+
+    /* 用户登录样式 */
+    .login img.wordtip{
+        /* background: url("image/user_icon.png") 32px 32px no-repeat; */
+        width: 24px;
+        height:24px;
+    }
+    .login img.wordtip{
+        /* background: url("image/pwd_icon.png") 32px 32px no-repeat; */
+        width: 24px;
+        height:24px;
+    }
+    .login .wrap_txt{
+        /* padding-right: 40px; */
+        width:410px;
+    }
+    .login .textbox{
+        padding: 5px;
+        width: 360px;
+    }
+    .input_bg.login ul{
+        margin:70px 0 0 60px;
+    }
+    .input_bg.login ul li{
+        margin-top: 10px;
+    }
+   
+    .input_bg.login  .registerBtn{
+        margin: 0;
+        width:410px;
+    }
+ 

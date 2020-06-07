@@ -1,0 +1,71 @@
+﻿body {
+	background-color: #ccccff;
+	SCROLLBAR-FACE-COLOR: #ededed;
+	SCROLLBAR-HIGHLIGHT-COLOR: #fafafa;
+	SCROLLBAR-SHADOW-COLOR: #666666;
+	SCROLLBAR-3DLIGHT-COLOR: #ffffff;
+	SCROLLBAR-ARROW-COLOR: #777777;
+	SCROLLBAR-TRACK-COLOR: #fcfcfc;
+	SCROLLBAR-DARKSHADOW-COLOR: #ffffff;
+
+    background-image:url(../images/first.jpg);
+
+	
+}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+body,td,th ,div{
+	font-size: 12px;
+	color: #111111;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+/*银色按钮*/
+.button30 { background: url(../Image/btn_30.gif); border-style: none; cursor: hand; font-size: 12px; height: 22px; line-height: 22px; text-align: center; width: 30px; }
+.button60 { background: url(../Image/btn_60.gif); border-style: none; cursor: hand; font-size: 12px; height: 22px; line-height: 22px; text-align: center; width: 60px; }
+.button80 { background: url(../Image/btn_60F.gif); border-style: none; cursor: hand; font-size: 12px; height: 22px; line-height: 22px; text-align: center; width: 60px; }
+/*绿边按钮*/
+.Btn80 { background: url(../Image/btn_80F.gif); border-style: none; cursor: hand; font-size: 12px; height: 22px; line-height: 22px; text-align: center; width: 86px; }
+/*大按钮蓝底*/
+.MaxBtn{background: url(../Image/BtnImg/Btn11.gif); border-style: none; cursor: hand; font-size: 14px; height:35px; width:144px; line-height:35px; font-weight:bold; text-align:center; letter-spacing:3px; color:#f74c00; }
+/*黄底红字*/.MaxBtnhover{background: url(../image/BtnImg/Btn11F.gif); border-style: none; cursor: hand; font-size: 14px; height:35px; width:144px; line-height:35px; font-weight:bold; text-align:center; letter-spacing:3px; color:#f74c00; }
+.PageBtn{ border:none; background:none;height:auto; height:15px;}/*无框按钮*/
+input{ border: 1px solid #808080; font-family: Geneva, Arial, Helvetica, sans-serif; font-size: 12px;color:#333333;}
+
+.logintext{ border:1px solid #0470CA; height:14px; width:100px; background:#E2F2FE;}
+.logintext:hover{background:#ffffff;}
+.lbotton{BORDER-RIGHT: 0px;	BORDER-TOP: 0px;FONT-SIZE: 12px;BACKGROUND: url(../image/buttonbg.gif) no-repeat;	BORDER-LEFT: 0px;WIDTH: 55px;CURSOR: hand;LINE-HEIGHT: 23px;	BORDER-BOTTOM: 0px;	HEIGHT: 19px;	color:#ffffff;}
+
+textarea{ border: 1px solid #808080; overflow: auto;font-family: Geneva, Arial, Helvetica, sans-serif; font-size: 12px; line-height:18px; overflow-x:hidden;color:#333333;}
+.TopLeft{ width:217px; height:31px; background:url(../Images/top-2.gif) no-repeat;}
+.TopInfo{ padding-left:30px; padding-top:6px;filter:Dropshadow(color=#ffffff,offX=1,offY=1);height:20px;}
+.TopBg{background:url(../Image/top-3.gif) repeat-x;}
+.TopRightImg{width:75px; background:url(../Images/top-5.gif) no-repeat;}
+.TopRightBg{background:url(../Image/top-6.gif) repeat-x; width:100px;}
+.TopTxt{padding-top:7px; padding-left:3px; padding-right:3px;filter:Dropshadow(color=#E1F0FF,offX=1,offY=1);height:20px;}
+.TopAle{width:39px; height:31px; background:url(../Images/top-4.gif) no-repeat;}
+
+.txtline{border:none; border-bottom:1px solid #808080; background:none;}
+.TxtLine2{ border:1px solid #808080;}
+.msdiv{ height: 100%; overflow: hidden; table-layout: fixed; width: 100%; }
+.sdiv{  width: 100%; height: 100%; overflow: auto; table-layout: fixed;}/*内容下拉*/
+.cmdrow{ background-color: #f1f1f1; height: 30px; text-align: center; }
+.WinCmdRow{height:50px; text-align:center; padding-top:20px;}
+.TabFix{width:100%;height:100%; table-layout:fixed;}
+.TabW100Fix{width:100%;table-layout:fixed;}
+.TabOnlyFix{table-layout:fixed;}
+.TabFixBg{width:100%;height:100%; table-layout:fixed; background:#f1f1f1;}
+.TabFixBBg{width:100%;height:100%; table-layout:fixed; background:#ffffff;}
+.CommonTxt{width:180px;}
+.TabNoFix{width:100%;height:100%;}
+.heard{height:23px;background:#FFF url(../Image/header-opened.png) repeat-x;color:#000;padding-top:2px;font-weight:bold;}
+.Pager{ height:35px; text-align:right;}
+.MsgDiv{border:1px solid #808080; background:#fafafa; padding:4px; height:100%; width:100%; word-wrap:break-word;}
+.BillDiv{border:1px solid #808080; background:#fafafa; padding:4px; word-wrap:break-word; }
+.green{background: url(../images/tab_05.gif); border-style: none; cursor: hand; font-size: 12px; height: 22px; line-height: 22px; text-align: center; width: 60px;}
+
+.enter{background: url(../Images/登陆.gif); border-style: none; cursor: hand; font-size: 12px; height: 22px; line-height: 22px; text-align: center; width: 30px;}
+.retry{background: url(../Images/重置.gif); border-style: none; cursor: hand; font-size: 12px; height: 22px; line-height: 22px; text-align: center; width: 30px;}

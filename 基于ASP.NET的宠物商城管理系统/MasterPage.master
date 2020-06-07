@@ -1,0 +1,126 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>波奇网</title>
+    <link rel="icon" href="image/favicon.ico">
+    <link href="style/reset.css" rel="stylesheet" />
+    <link href="style/swiper.min.css" rel="stylesheet" />
+    <link href="style/masterPage.css" rel="stylesheet" />
+       <script src="js/swiper.min.js"></script>
+    
+</head>
+<body>
+
+    <form id="form1" runat="server" >
+
+        <div>
+                    <div class="topnav_box" id="Login2" runat="server">       
+        <div class="layout topnav clearfix"> 
+        <div> <a href="admin/Login.aspx" target=_blank >管理员登录</a></div>
+            <div class="nomargin"></div>
+        <div><a href="UserLogin.aspx">登 录</a></div>
+            <div class="nomargin"></div>
+        <div><a href="UserRegister.aspx">注 册</a></div>
+       
+         </div>
+         
+    </div>
+        </div>
+    
+
+        <div>
+            <div class="topnav_box" id="Login1" runat="server">       
+        <div class="layout topnav clearfix">
+                 <div> <a href="admin/Login.aspx" target=_blank >管理员登录</a></div>
+                     <div class="nomargin"></div>
+                 <div> <asp:Button id="Button4" runat="server" OnClick="Button4_Click"  Text="退出登录" CssClass="logout_btn"/> </div>
+                     <div class="nomargin"></div>
+           <!-- <div><asp:Button ID="Button1" runat="server" CausesValidation="False" 
+                            Text="用户中心" /></div>   -->
+                 <div>
+                      <asp:Image ID="Image2" runat="server" CssClass="avator"/>
+                     <asp:Label ID="Label1" runat="server" CssClass="username"></asp:Label>  
+                 </div>
+          
+    </div>
+        </div>
+        </div>
+
+
+
+        <div class="search_box">
+            <div class="search layout clearfix">
+                         <asp:Image ID="Image1" runat="server" ImageUrl="~/image/logo.png" CssClass="logo fl"/>
+                <div class="fl category_box">
+                      <asp:DropDownList ID="DropDownList1" runat="server" Width="81px" CssClass="category"> </asp:DropDownList>
+                <div class="keywords clearfix">
+                  <asp:TextBox ID="TxtName" runat="server" CssClass="searchKey fl"  Text="请输入名称关键字"
+                      
+                      OnFocus="javascript:if(this.value=='请输入名称关键字') {this.value='';this.style.color='#000'}"
+
+                     OnBlur="javascript:if(this.value==''){this.value='请输入名称关键字';this.style.color='#999'}" ForeColor="Gray" 
+                  ></asp:TextBox>
+             <asp:Button ID="btnRegister" runat="server" CausesValidation="False" OnClick="btnRegister_Click" Text="搜 索" CssClass="searchBtn fl"/>
+                </div>
+            </div> 
+        </div>
+                </div>
+
+
+
+        <div id=TabMenuCon71 class="nav_box">
+            <ul class="layout nav clearfix" id="nav" >
+                <div class="all">全部商品分类</div>
+                <li><a href="Default.aspx?activeItem=0" runat="server" ID="LI0">首　页</a></li>
+                   <li><a href="NewShangPinList.aspx?activeItem=1" runat="server" ID="LI1">最新商品</a></li>
+                   <li><a href="HotShangPinList.aspx?activeItem=2" runat="server" ID="LI2">热门商品</a></li>
+                    <li><a href="ly.aspx?activeItem=3" runat="server" ID="LI3">留言板</a></li>
+                    <li><a href="NewsTypeList.aspx?TypeName=促销活动&activeItem=4" runat="server" ID="LI4">促销活动</a></li>
+                    <li><a href="NewsTypeList.aspx?TypeName=精选文章&activeItem=5" runat="server" ID="LI5">精选文章</a></li>
+                    <li><a  href="UserHome.aspx?activeItem=6" runat="server" ID="LI6">用户中心</a></li>
+                  <li><a  href="ShoppingCart.aspx" runat="server" ID="A1">购物车</a></li>
+                
+            </ul>
+            </div>
+
+        <div style="max-height:2530px">
+               <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+               </asp:ContentPlaceHolder>
+        </div>
+
+   
+
+
+       
+
+<div class="login_content layout">
+    <div class="footer_auto">
+        <div class="footer_bot">
+            <p class="link"><a target="_blank" href="http://www.boqii.com/about.html">关于波奇</a><span>|</span><a target="_blank" href="http://www.boqii.com/link.html">友情链接</a><span>|</span><a target="_blank" href="http://www.boqii.com/joinus.html">诚聘英才</a><span>|</span><a target="_blank" href="http://www.boqii.com/contact.html">联系我们</a><span>|</span><a target="_blank" href="http://www.boqii.com/sitemap.html">网站地图</a><span>|</span><a target="_blank" href="http://www.boqii.com/complaints.html">意见反馈</a><span>|</span><a target="_blank" href="http://www.boqii.com/help.html">帮助中心</a><span>|</span>
+                客服热线：400-820-6098</p>
+            <p class="beian"><a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011502004955"><img src="image/beian.png" alt="">
+                        沪公网安备 31011502004955号</a><span>|</span><a href="http://www.beian.miit.gov.cn/" target="_blank">沪ICP备13034501号-2</a><span>|</span>
+                &nbsp;增值电信业务经营许可证：
+                <a href="http://www.beian.miit.gov.cn/" target="_blank">沪B2-20140120</a></p>
+            <p class="copy"> Copyright © 2007-2020 Boqii.com All Rights Reserved 光橙（上海）信息科技有限公司 版权所有 </p>
+            <p class="copy">公司地址：上海市浦东新区盛夏路399号亚芯科技园1号楼6楼<span>|</span>公司电话：021-61096226 </p>
+            <p><a href="http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&amp;entyId=20131022163114962" target="_blank" rel="nofollow"><img src="image/foot_gs.png" width="100" height="35"></a><a href="http://www.boqii.com/ads.php" target="_blank" rel="nofollow"><img src="image/foot_cx.png" width="100" height="35"></a><a href="https://ss.knet.cn/verifyseal.dll?sn=e14111831011556282oicb000000&amp;ct=df&amp;a=1&amp;pa=0.1636424780320953" target="_blank" rel="nofollow"><img src="image/foot_kx.png" width="100" height="35"></a><a href="http://www.zx110.org/" target="_blank" rel="nofollow"><img src="image/foot_zx.png" width="100" height="35"></a></p>
+            <p>如网民接到962110电话，请立即接听</p>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+    </form>
+
+</body>
+</html>

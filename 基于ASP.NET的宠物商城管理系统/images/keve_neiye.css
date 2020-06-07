@@ -1,0 +1,39 @@
+#keve_wrap {
+	MARGIN: 0px auto; WIDTH: 960px; PADDING-TOP: 10px
+}
+#keve_cleft {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: #6fcff7 1px solid; WIDTH: 210px; BACKGROUND: #fff; FLOAT: left; MARGIN-LEFT: 20px; BORDER-TOP: #6fcff7 1px solid; BORDER-RIGHT: #6fcff7 1px solid; _margin-left: 10px
+}
+#keve_cleft H1 {
+	BORDER-BOTTOM: 0px; BACKGROUND: url(../images/fenlei_head.jpg) no-repeat; HEIGHT: 50px
+}
+#keve_cleft UL {
+	TEXT-ALIGN: left
+}
+#keve_cleft UL LI {
+	BORDER-BOTTOM: #6fcff7 1px solid; TEXT-INDENT: 20px; BACKGROUND: url(../images/textpot3.gif) no-repeat 10px center; HEIGHT: auto
+}
+#keve_cleft UL LI A {
+	LINE-HEIGHT: 40px; DISPLAY: block; COLOR: #010101; FONT-SIZE: 14px
+}
+#keve_cleft UL LI A:hover {
+	BACKGROUND: #029df9; COLOR: #fff; TEXT-DECORATION: none
+}
+#keve_cright {
+	TEXT-ALIGN: left; BORDER-LEFT: #c9c9c9 1px dashed; PADDING-BOTTOM: 30px; WIDTH: 700px; FLOAT: right; MARGIN-RIGHT: 10px; _width: 690px
+}
+#keve_cright #keve_crtitle {
+	BORDER-BOTTOM: #c9c9c9 1px dashed; PADDING-BOTTOM: 3px; MARGIN-TOP: 10px; TEXT-INDENT: 18px; DISPLAY: block; MARGIN-BOTTOM: 15px; BACKGROUND: url(../images/weizi_biao.gif) no-repeat left center; MARGIN-LEFT: 10px; PADDING-TOP: 3px
+}
+#keve_cright #keve_crs {
+	MARGIN-LEFT: 10px
+}
+.weizi_tishi {
+	COLOR: #010101
+}
+.neiye_wzbt {
+	MARGIN-BOTTOM: 20px; COLOR: #074a8c; FONT-SIZE: 16px; FONT-WEIGHT: bold
+}
+.neiye_wenlian {
+	PADDING-TOP: 10px
+}

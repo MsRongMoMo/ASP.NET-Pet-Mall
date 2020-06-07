@@ -1,0 +1,111 @@
+body {
+	margin: 0px; padding: 0px; line-height: 150%; font-family: "Î¢ÈíÑÅºÚ","ËÎÌå","ºÚÌå",Georgia, "Times New Roman", Arial, Helvetica, sans-serif; font-size: 13px; background-image: url("../images/index_bg.png"); background-attachment: fixed; background-repeat: repeat-x; background-color: rgb(20, 93, 135);
+}
+td {
+	border-color: rgb(204, 204, 204); color: rgb(0, 0, 0); font-size: 13px;
+}
+ul {
+	margin-left: 15px;
+}
+a.menu {
+	color: rgb(0, 0, 1); padding-right: 20px; padding-left: 20px; font-size: 14px; text-decoration: none;
+}
+a.menu:hover {
+	color: rgb(255, 255, 0); padding-right: 20px; padding-left: 20px; font-size: 14px; text-decoration: none;
+}
+.copyright {
+	color: rgb(255, 255, 255);
+}
+a.copyright {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+a.copyright:hover {
+	color: rgb(255, 255, 0); text-decoration: none;
+}
+a.arti {
+	color: rgb(0, 0, 1); text-decoration: none;
+}
+a.arti:hover {
+	color: rgb(255, 102, 0); text-decoration: none;
+}
+.arti {
+	margin: 0px; color: rgb(102, 0, 51); font-family: "Î¢ÈíÑÅºÚ","ºÚÌå",Georgia, "Times New Roman", Arial, Helvetica, sans-serif; font-size: 13px; font-weight: bold;
+}
+.content {
+	margin: 0px; padding: 5px; text-align: left; color: rgb(0, 0, 2); line-height: 150%;
+}
+.content_pad0 {
+	margin: 0px; padding: 15px 0px; text-align: center; color: rgb(0, 0, 2); line-height: 150%;
+}
+.title {
+	padding: 5px 0px; text-align: left; color: rgb(0, 0, 2); line-height: 150%; font-family: "Î¢ÈíÑÅºÚ","ºÚÌå",Georgia, "Times New Roman", Arial, Helvetica, sans-serif; font-size: 15px; font-weight: bold;
+}
+.title2 {
+	padding: 5px 0px; text-align: left; color: rgb(51, 0, 0); line-height: 150%; font-family: "Î¢ÈíÑÅºÚ","ºÚÌå",Georgia, "Times New Roman", Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold;
+}
+.title_center {
+	padding: 5px 0px; text-align: center; color: rgb(51, 0, 0); line-height: 150%; font-family: "Î¢ÈíÑÅºÚ","ºÚÌå",Georgia, "Times New Roman", Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold;
+}
+a {
+	color: rgb(0, 0, 1); text-decoration: none;
+}
+a:hover {
+	color: rgb(255, 0, 0); text-decoration: none;
+}
+.ok {
+	border-width: 0px 1px; border-style: solid; border-color: rgb(153, 51, 0) rgb(51, 102, 153) rgb(255, 153, 0);
+}
+.cent_text {
+	text-align: center;
+}
+.content_bold {
+	font-family: "Î¢ÈíÑÅºÚ","ºÚÌå",Georgia, "Times New Roman", Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold;
+}
+.op {
+	border-width: 0px; border-style: solid; border-color: rgb(153, 51, 0) rgb(51, 102, 153) rgb(255, 153, 0); padding: 0px 0px 0px 5px;
+}
+.Team_Table {
+	margin: 0px auto; padding: 5px; border: 1px solid rgb(204, 204, 204); width: 670px; text-align: justify; line-height: 20px; font-size: 12px; border-collapse: collapse;
+}
+.Team_Table_1 {
+	margin: 0px auto; padding: 0px; border: 1px solid rgb(204, 204, 204); width: 670px; text-align: justify; line-height: 25px; font-size: 12px; vertical-align: middle; border-collapse: collapse;
+}
+.Team_Table_2 {
+	margin: 0px auto; padding: 5px; border: 1px solid rgb(204, 204, 204); text-align: justify; line-height: 25px; font-size: 12px; vertical-align: middle; border-collapse: collapse;
+}
+.Team_Bold_text {
+	text-align: center; color: rgb(0, 0, 0); line-height: 18px; font-weight: bold;
+}
+.Team_Bold_White_text {
+	text-align: center; color: rgb(255, 255, 255); font-weight: bold;
+}
+.Content_PPT_Table {
+	margin: 0px auto; padding: 5px; border: 1px solid rgb(0, 0, 0); width: 600px; text-align: justify; line-height: 20px; font-size: 12px;
+}
+.Dayi_Table {
+	border: 1px solid rgb(102, 0, 102); width: 620px; text-align: left; line-height: 16px; padding-right: 5px; padding-left: 5px; font-size: 12px; border-collapse: collapse;
+}
+.Honer_Table_1 {
+	border-width: 1px; padding: 0px; width: 620px; height: 182px; color: rgb(0, 0, 0); vertical-align: middle;
+}
+.Honer_Table_2 {
+	border-width: 1px; padding: 0px; width: 280px; height: 180px; vertical-align: middle; border-collapse: collapse;
+}
+.Honer_Table_3 {
+	border-width: 1px; width: 300px; height: 180px; text-align: left; line-height: 25px; padding-right: 15px; padding-left: 15px; vertical-align: middle; border-collapse: collapse;
+}
+.honor_bold {
+	color: rgb(0, 0, 153); font-family: "Î¢ÈíÑÅºÚ","ºÚÌå",Georgia, "Times New Roman", Arial, Helvetica, sans-serif; font-size: 16px; font-weight: bold;
+}
+.honor_text {
+	color: rgb(0, 0, 0); font-family: "Î¢ÈíÑÅºÚ","ºÚÌå",Georgia, "Times New Roman", Arial, Helvetica, sans-serif; font-size: 14px;
+}
+.img_Title_text {
+	text-align: center; color: rgb(0, 0, 0); line-height: 18px; font-family: "Î¢ÈíÑÅºÚ","ºÚÌå",Georgia, "Times New Roman", Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold;
+}
+.form_label_text {
+	color: rgb(0, 0, 0); font-family: "Î¢ÈíÑÅºÚ", "ºÚÌå", Georgia, "Times New Roman", Arial, Helvetica, sans-serif; font-size: 12px;
+}
+.form_label_title {
+	color: rgb(0, 0, 0); font-family: "Î¢ÈíÑÅºÚ", "ºÚÌå", Georgia, "Times New Roman", Arial, Helvetica, sans-serif; font-size: 14px;
+}

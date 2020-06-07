@@ -1,0 +1,105 @@
+BODY {
+	BACKGROUND-IMAGE: url(../images/pattern00.gif); MARGIN: 0px auto; FONT-SIZE: 9pt
+}
+TABLE {
+	FONT-SIZE: 9pt
+}
+A:link {
+	TEXT-ALIGN: justify; LINE-HEIGHT: 1.5em; COLOR: #000000; FONT-SIZE: 9pt; TEXT-DECORATION: none
+}
+A:visited {
+	TEXT-ALIGN: justify; LINE-HEIGHT: 1.5em; COLOR: #000000; FONT-SIZE: 9pt; TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-ALIGN: justify; LINE-HEIGHT: 1.5em; COLOR: #ff7a0f; FONT-SIZE: 9pt; TEXT-DECORATION: none
+}
+A:active {
+	TEXT-ALIGN: justify; LINE-HEIGHT: 1.5em; COLOR: #000000; FONT-SIZE: 9pt; TEXT-DECORATION: none
+}
+#header #flsh {
+	PADDING-LEFT: 520px; PADDING-RIGHT: 40px; PADDING-TOP: 64px
+}
+.wlink:link {
+	TEXT-ALIGN: right; LINE-HEIGHT: 30px; WIDTH: 80px; DISPLAY: block; FONT-FAMILY: "幼圆"; COLOR: #ffffff; FONT-SIZE: 13px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.wlink {
+	TEXT-ALIGN: right; COLOR: #ffffff; FONT-SIZE: 13px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.wlink:visited {
+	TEXT-ALIGN: right; LINE-HEIGHT: 30px; WIDTH: 80px; DISPLAY: block; FONT-FAMILY: "幼圆"; COLOR: #ffffff; FONT-SIZE: 13px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.wlink:hover {
+	TEXT-ALIGN: right; LINE-HEIGHT: 30px; WIDTH: 80px; DISPLAY: block; FONT-FAMILY: "幼圆"; COLOR: #ffffff; FONT-SIZE: 13px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.wlink:active {
+	TEXT-ALIGN: right; LINE-HEIGHT: 30px; WIDTH: 80px; DISPLAY: block; FONT-FAMILY: "幼圆"; COLOR: #ffffff; FONT-SIZE: 13px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+#search1 {
+	PADDING-TOP: 22px
+}
+.s_input {
+	BORDER-BOTTOM: #eeeeee 2px solid; BORDER-LEFT: #eeeeee 2px solid; MARGIN-TOP: 1px; WIDTH: 120px; HEIGHT: 16px; BORDER-TOP: #eeeeee 2px solid; BORDER-RIGHT: #eeeeee 2px solid
+}
+.s_input A:link {
+	MARGIN-TOP: 1px
+}
+.s_input A:hover {
+	MARGIN-TOP: 1px
+}
+.s_input A:visited {
+	MARGIN-TOP: 1px
+}
+.s_input A:active {
+	MARGIN-TOP: 1px
+}
+.s_submit {
+	BORDER-BOTTOM: #fff 0px solid; POSITION: relative; BORDER-LEFT: #fff 0px solid; BACKGROUND-COLOR: #92929a; MARGIN-TOP: 1px; BOTTOM: 1px; FONT-FAMILY: arial; COLOR: #fff; FONT-SIZE: 12px; BORDER-TOP: #fff 0px solid; CURSOR: hand; BORDER-RIGHT: #fff 0px solid
+}
+.search2 {
+	FONT-FAMILY: 宋体; COLOR: #ffffff; FONT-SIZE: 13px
+}
+.tnavitxt {
+	COLOR: #ffffff; FONT-SIZE: 14px
+}
+.tnavitxt A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.tnavitxt A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.tnavitxt A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+#header {
+	BACKGROUND-IMAGE: url(../images/title.jpg); WIDTH: 960px; HEIGHT: 150px; MARGIN-LEFT: auto; MARGIN-RIGHT: auto
+}
+#menu {
+	BACKGROUND-IMAGE: url(../images/bnn.gif); BACKGROUND-COLOR: #fff; WIDTH: 960px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 30px; MARGIN-LEFT: auto; MARGIN-RIGHT: auto
+}
+#menu #time {
+	TEXT-ALIGN: right; LINE-HEIGHT: 30px; WIDTH: 150px; FONT-FAMILY: "幼圆"; FLOAT: left; COLOR: #efefef; FONT-SIZE: 13px; FONT-WEIGHT: bold
+}
+.common_navigation {
+	WIDTH: auto; BACKGROUND-REPEAT: no-repeat; FLOAT: left; HEIGHT: 30px
+}
+.common_navigation * {
+	FONT-FAMILY: "幼圆"; FONT-WEIGHT: normal
+}
+#nav_main .topnav .nav_title {
+	POSITION: relative; DISPLAY: block; FLOAT: left; HEIGHT: 30px
+}
+#nav_main .topnav .nav_title A {
+	TEXT-ALIGN: center; LINE-HEIGHT: 30px; WIDTH: 75px; DISPLAY: block; FONT-FAMILY: "幼圆"; COLOR: #efefef; FONT-SIZE: 13px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+#nav_main .topnav .nav_line {
+	WIDTH: 2px; FLOAT: left; HEIGHT: 30px
+}
+#space {
+	BACKGROUND-COLOR: #fff; WIDTH: 960px; HEIGHT: 10px; MARGIN-LEFT: auto; MARGIN-RIGHT: auto
+}
+#foot {
+	BACKGROUND-IMAGE: url(../images/bnn.gif); WIDTH: 960px; BACKGROUND-REPEAT: repeat-x; HEIGHT: 100px; MARGIN-LEFT: auto; MARGIN-RIGHT: auto
+}
+#foot #copyright {
+	TEXT-ALIGN: center; LINE-HEIGHT: 20px; FONT-FAMILY: "宋体"; FONT-SIZE: 12px; PADDING-TOP: 20px
+}

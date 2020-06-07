@@ -1,0 +1,128 @@
+﻿.toshopping input{
+    vertical-align:bottom;
+    color:#333;
+    font-size:12px;
+    font-weight:700;
+    position:relative;
+    top:0;
+    left:1100px;
+    border:0;
+    outline:none;
+    background-color:#f3f3f3;
+   
+}
+.shoppingcarlist {
+    width:100%;
+}
+.shoppingcarlist table tbody tr th {
+    height: 40px;
+    line-height: 40px;
+    border-top: 3px solid #ee5533;
+    font-size: 12px;
+    background-color: #F3f3f3;
+    color: #666;
+    font-weight: 400;
+}
+   
+        .shoppingcarlist table tbody tr a img {
+            width: 80px;
+            height: 80px;
+            padding: 3px 0;
+            margin-left: 15px;
+         
+        }
+    .shoppingcarlist table tbody tr .ShangPinName {
+        height: 119px;
+        padding: 15px 0;
+      
+    }
+.ShangPinName {
+    width: 45%;
+}
+.title {
+    width:435px;
+    overflow:hidden;
+    display:inline-block;
+    color:#333;
+    font-size:12px;
+    height:22px;
+}
+.ShangPinSinglePrice, .ShangPinTotalPrice {
+    width:10%;
+    color:#ee5533;
+    font-size:12px;
+}
+ .symbol {
+    width: 20px;
+    height: 28px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    outline: none;
+}
+
+
+ .count {
+    text-align: center;
+    width: 60px;
+    height: 28px;
+    background-color: #fff;
+    border: 0;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 0 5px;
+    outline: none;
+}
+.bg {
+    background-color: #fff;
+}
+.table-row {
+  
+    border-bottom:1px solid #ccc;
+    background-color:#fff;
+ 
+}
+    .table-row:last-child {
+        border-bottom: 0;
+    }
+    .bg {
+        width: 100%;
+        height: 25px;
+        background-color: #f3f3f3;
+    }
+.account {
+    width:100%;
+    background-color:#fff;
+    height:76px;
+    padding:20px 12px 10px;
+    margin-top:20px;
+}
+
+    .account .money {
+        width: 106px;
+        height: 37px;
+    
+        background-color: #ee5533;
+    }
+        .account .money input {
+            color: #fff;
+            width:100%;
+            font-size: 22px;
+            border: 0;
+            outline: none;
+            display: block;
+            line-height: 37px;
+            text-align: center;
+            background-color: #ee5533;
+        }
+    .account .totalPrice {
+        font-size:20px;
+        color:#ee5533;
+    }
+    .account input {
+        border:0;
+        outline:none;
+        background-color:#fff;
+        color:#333;
+        font-size:12px;
+        font-weight:700;
+    }

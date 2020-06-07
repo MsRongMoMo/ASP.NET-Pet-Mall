@@ -1,0 +1,107 @@
+﻿
+* {
+    box-sizing:border-box;
+}
+body, p, h1, h2, h3, h4, h5 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img {
+    border: none;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    color: #3c3c3c;
+}
+
+i {
+    font-style: normal;
+}
+
+input, button {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    outline: none;
+}
+
+table {
+    border-collapse: collapse;
+    margin-right: 94px;
+}
+
+th, td {
+    padding: 0;
+}
+
+body {
+    /*\u5B8B\u4F53  
+		 * 宋体的Unicode编码 用处：前后端的数据交互，不允许出现中文
+		 * font-family:'宋体';
+		 * font-family:'\5b8b\4f53';
+		 * font-family:SimSun;
+		 * 
+		 * 
+		 * font-family:"微软雅黑";
+		 * font-family:Microsoft YaHei;
+		 * 
+		 * 
+		 * */
+    font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+    color: #3c3c3c;
+   
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.layout {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+.c4 {
+    color: #f40;
+}
+
+.c5 {
+    color: #f50;
+}
+
+.mr7 {
+    margin-right: 7px;
+}
+
+.mr50 {
+    margin-right: 50px;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.mr10 {
+    margin-right: 10px;
+}
+

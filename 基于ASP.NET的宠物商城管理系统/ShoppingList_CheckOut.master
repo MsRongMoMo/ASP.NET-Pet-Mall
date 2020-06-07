@@ -1,0 +1,64 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="ShoppingList_CheckOut.master.cs" Inherits="ShoppingList_CheckOut" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+     <link rel="icon" href="image/favicon.ico">
+    <link href="style/reset.css" rel="stylesheet" />
+    <link href="style/masterPage.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+
+          <div>
+                    <div class="topnav_box" id="Login2" runat="server">       
+        <div class="layout topnav clearfix">
+        <div><a href="UserLogin.aspx">登 录</a></div>
+            <div class="nomargin"></div>
+        <div><a href="UserRegister.aspx">注 册</a></div>
+         </div>
+    </div>
+        </div>
+    
+
+        <div>
+            <div class="topnav_box" id="Login1" runat="server">       
+        <div class="layout topnav clearfix">
+        <div>
+            <asp:Button id="Button4" runat="server" OnClick="Button4_Click"  Text="退出登录" CssClass="logout_btn"/>
+         </div>
+                <div class="nomargin"></div>
+           <!-- <div><asp:Button ID="Button1" runat="server" CausesValidation="False" 
+                            Text="用户中心" /></div>   -->
+                 <div>
+                        <asp:Image ID="Image2" runat="server" CssClass="avator"/>
+                     <asp:Label ID="Label1" runat="server" CssClass="username"></asp:Label>
+                    
+                 </div>
+          
+    </div>
+        </div>
+        </div>
+
+
+
+        <div class="layout" style="background-color:#f3f3f3;">
+            <img src="image/logo.png" alt="Alternate Text" style="padding:15px 0"/>
+       </div>
+
+        <div class="layout">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+         </div>    
+    </div>
+    </form>
+</body>
+</html>
